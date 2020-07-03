@@ -1,0 +1,8 @@
+prefix=/home/wzw/gnss_to_path_and_imu/install
+
+Name: gnss_to_path_and_imu
+Description: Description of gnss_to_path_and_imu
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/wzw/gnss_to_path_and_imu/install/lib 
+Requires: 

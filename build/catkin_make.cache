@@ -1,0 +1,2 @@
+msg/msg_gnss_prep:node/gnss_to_path_and_imu
+-DCATKIN_DEVEL_PREFIX=/home/wzw/gnss_to_path_and_imu/devel -DCMAKE_INSTALL_PREFIX=/home/wzw/gnss_to_path_and_imu/install -G Unix Makefiles

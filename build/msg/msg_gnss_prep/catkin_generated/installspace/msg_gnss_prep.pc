@@ -1,0 +1,8 @@
+prefix=/home/wzw/gnss_to_path_and_imu/install
+
+Name: msg_gnss_prep
+Description: Description of msg_gnss_prep
+Version: 0.0.0
+Cflags: -I/home/wzw/gnss_to_path_and_imu/install/include
+Libs: -L/home/wzw/gnss_to_path_and_imu/install/lib 
+Requires: message_runtime

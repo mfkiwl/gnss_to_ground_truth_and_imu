@@ -1,0 +1,16 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+
+  <!--param name="use_sim_time" value="true"/-->
+
+  <node pkg="gnss_to_path_and_imu" type="gnss_to_path_and_imu_sub" name="gnss_to_path_and_imu_sub" output="screen">
+    <param name="frame_id" type="string" value="camera_init" />
+  <!--remap from= "/odom" to= "/odom_rf2o"/>
+  <remap from= "/odom_path" to= "/odom_path_name"/-->
+  </node>
+  
+  <!--node pkg="tf2_ros" type="static_transform_publisher" name="odom_camera_init_broadcaster" args="0 0 0 0 0 0 camera_init odom 100" /-->
+   
+  <!--node pkg="rosbag" type="play" name="rosbag" args="-r 5 $(find odom_to_path)/2020-04-10-12-52-32.bag"/-->
+  
+</launch>
